@@ -1,0 +1,7 @@
+# bron en tussenresultaten
+bron/
+artifact/
+__pycache__/
+*.log
+.playwright-mcp/
+.vercel
