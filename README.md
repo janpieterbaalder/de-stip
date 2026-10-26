@@ -10,8 +10,7 @@ buigt niet bij het omslaan.
 - **`src/book.template.html`** — de pagina zelf (bladeranimatie, rug, inhoud, leesweergave).
 - **`build.py`** — snijdt de PDF-bladen in pagina's en maakt `web/index.html`, pictogrammen,
   `vercel.json` en de artifactversie (`artifact/`) uit de template.
-
-De PDF zelf staat niet in de repository (map `bron/`).
+- **`bron/De Stip.pdf`** — de bron-PDF waaruit alles wordt gemaakt.
 
 ## Bijwerken
 

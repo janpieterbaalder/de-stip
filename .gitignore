@@ -1,5 +1,6 @@
-# bron en tussenresultaten
-bron/
+# bron (alleen de PDF zelf hoort in de repository) en tussenresultaten
+bron/*
+!bron/De Stip.pdf
 artifact/
 __pycache__/
 *.log
