@@ -168,6 +168,7 @@ def main():
     json.dump(manifest, open(os.path.join(WEB, 'manifest.webmanifest'), 'w', encoding='utf8'), indent=1, ensure_ascii=False)
     vercel = {
         'cleanUrls': True,
+        'webAnalytics': {'enabled': True},
         'headers': [
             {'source': '/(.*)', 'headers': [{'key': 'X-Robots-Tag', 'value': 'noindex, nofollow'}]},
             {'source': '/pages/(.*)', 'headers': [{'key': 'Cache-Control', 'value': 'public, max-age=31536000, immutable'}]},
