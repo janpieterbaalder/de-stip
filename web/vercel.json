@@ -1,5 +1,8 @@
 {
  "cleanUrls": true,
+ "webAnalytics": {
+  "enabled": true
+ },
  "headers": [
   {
    "source": "/(.*)",
